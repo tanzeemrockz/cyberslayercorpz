@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build:css": "tailwindcss -i src/app/tailwind-input.css -o src/app/tailwind-output.css --minify",
+    "build:css": "npx @tailwindcss/cli -i src/app/tailwind-input.css -o src/app/tailwind-output.css --minify",
     "dev": "next dev",
-    "build": "tailwindcss -i src/app/tailwind-input.css -o src/app/tailwind-output.css --minify && next build",
+    "build": "npx @tailwindcss/cli -i src/app/tailwind-input.css -o src/app/tailwind-output.css --minify && next build",
     "start": "next start",
     "lint": "eslint"
   },
@@ -14,11 +14,13 @@
     "framer-motion": "^13.1.0",
     "lucide-react": "^1.33.0",
     "next": "16.3.1",
+    "ogl": "^1.0.11",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
