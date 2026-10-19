@@ -4,7 +4,10 @@ import { Navbar } from "@/components/navbar/navbar";
 import { Footer } from "@/components/footer/footer";
 
 export const metadata: Metadata = {
-  title: "CyberSlayerCorpz — Digital Studio & Software Engineering",
+  title: {
+    default: "CyberSlayerCorpz – Indie Software Studio",
+    template: "%s | CyberSlayerCorpz",
+  },
   description:
     "CyberSlayerCorpz builds, launches and grows digital products: websites, applications, custom software, digital systems and AI integration.",
   icons: {

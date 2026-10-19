@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Hero } from "@/components/home/hero";
 import { StudioCapabilities } from "@/components/home/studio-capabilities";
 import { TheCyberSlayerEdge } from "@/components/home/the-edge";
@@ -5,6 +6,10 @@ import { ExecutionRoadmap } from "@/components/home/execution-roadmap";
 import { PricingSection } from "@/components/home/pricing-section";
 import { ClientFAQ } from "@/components/home/client-faq";
 import { CTASection } from "@/components/shared/cta-section";
+
+export const metadata: Metadata = {
+  title: "CyberSlayerCorpz – Indie Software Studio",
+};
 
 export default function Home() {
   return (
