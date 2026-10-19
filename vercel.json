@@ -1,0 +1,5 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "npx @tailwindcss/cli -i src/app/tailwind-input.css -o src/app/tailwind-output.css --minify && next build"
+}
