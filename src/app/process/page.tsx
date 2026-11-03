@@ -24,7 +24,7 @@ const PHASES = [
     phase: "Sprint 02",
     title: "Tactile UI Design & Interactive Prototyping",
     description:
-      "We craft high-contrast, accessible interfaces strictly in DM Sans with purposeful motion and mobile-first touch ergonomics. Every screen is designed to guide users directly toward conversion.",
+      "We craft high-contrast, accessible interfaces strictly in Google Sans with purposeful motion and mobile-first touch ergonomics. Every screen is designed to guide users directly toward conversion.",
     deliverable: "Component Library · Mobile-First UI · Interactive Preview",
     icon: Sparkles,
   },

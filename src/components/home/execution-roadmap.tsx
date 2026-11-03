@@ -10,7 +10,7 @@ const STEPS = [
   {
     step: "02",
     phase: "Design & Interface Dynamics",
-    description: "Crafting a bespoke visual identity, high-fidelity responsive layouts, interactive components, and dynamic typography in DM Sans.",
+    description: "Crafting a bespoke visual identity, high-fidelity responsive layouts, interactive components, and dynamic typography in Google Sans.",
     deliverable: "High-Fidelity Prototype · Design System",
   },
   {

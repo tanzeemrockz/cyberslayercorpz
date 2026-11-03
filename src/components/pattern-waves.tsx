@@ -148,7 +148,7 @@ const PATTERNS: Record<string, number> = { dot: 0, square: 1, plus: 2, line: 3, 
 const WAVES: Record<string, number> = { silk: 0, swell: 1, ripple: 2 };
 const FADES: Record<string, number> = { none: 0, edges: 1, center: 2, bottom: 3, top: 4 };
 const DEFAULT_CHARACTERS = '.:-=+*#%@';
-const GLYPH_FONT = '"DM Sans", sans-serif';
+const GLYPH_FONT = '"Google Sans", "Google Sans Flex", sans-serif';
 const ATLAS_TILE = 128;
 const WAVE_UNIT = 520;
 const RIPPLE_CELL = 8;

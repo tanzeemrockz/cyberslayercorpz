@@ -45,7 +45,7 @@ export interface TechTextProps {
 
 type Settings = Required<Omit<TechTextProps, 'className' | 'style'>>;
 
-const LABEL_FONT = '10px "DM Sans", sans-serif';
+const LABEL_FONT = '10px "Google Sans", "Google Sans Flex", sans-serif';
 const FALLOFF_STEPS = 8;
 const SPRING = 320;
 const DAMPING = 22;

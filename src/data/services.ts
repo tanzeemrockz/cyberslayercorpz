@@ -84,7 +84,7 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
         items: [
           "Next.js App Router Architecture",
           "SSR & Static Edge Generation",
-          "Custom UI Systems in DM Sans",
+          "Custom UI Systems in Google Sans",
           "Mobile-First Responsive Ergonmics",
           "Micro-Interactions & Motion Design",
         ],
@@ -221,7 +221,7 @@ export const PROCESS_STEPS = [
   {
     number: "02",
     title: "Interface Engineering & UX Prototyping",
-    description: "High-contrast tactile UI crafted in DM Sans. We establish mobile-first ergonomics, micro-interactions, and high-conversion pathways before touching production code.",
+    description: "High-contrast tactile UI crafted in Google Sans. We establish mobile-first ergonomics, micro-interactions, and high-conversion pathways before touching production code.",
   },
   {
     number: "03",
