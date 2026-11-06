@@ -134,6 +134,56 @@ export default async function CaseStudyPage({
         </section>
       )}
 
+      {project.features && project.features.length > 0 && (
+        <section className="py-20 sm:py-24 border-b border-white/[0.08]">
+          <Container className="flex flex-col gap-8">
+            <SectionLabel>Architecture & Key Capabilities</SectionLabel>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {project.features.map((feature, i) => (
+                <div
+                  key={feature}
+                  className="rounded-2xl border border-white/10 bg-[#0c0c10] p-6 flex flex-col gap-3 transition-all hover:border-white/20"
+                >
+                  <div className="flex items-center gap-2 text-accent-orange text-xs font-semibold uppercase tracking-wider">
+                    <Check className="size-4" />
+                    <span>Capability 0{i + 1}</span>
+                  </div>
+                  <p className="text-sm leading-relaxed text-white/80">{feature}</p>
+                </div>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
+
+      {project.results && (
+        <section className="py-16 sm:py-20 border-b border-white/[0.08] bg-white/[0.01]">
+          <Container>
+            <div className="rounded-2xl border border-accent-orange/20 bg-accent-orange/[0.04] p-8 sm:p-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+              <div className="flex flex-col gap-2 max-w-xl">
+                <span className="text-xs font-semibold text-accent-orange uppercase tracking-wider">
+                  Verified Outcome
+                </span>
+                <p className="text-base sm:text-lg text-white font-medium leading-relaxed">
+                  {project.results}
+                </p>
+              </div>
+              {project.clientUrl && (
+                <a
+                  href={project.clientUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group inline-flex shrink-0 items-center gap-2 rounded-full bg-white px-6 py-3 text-xs sm:text-sm font-semibold text-black transition-all hover:bg-white/90 hover:shadow-[0_0_25px_rgba(255,255,255,0.25)]"
+                >
+                  <span>Verify Live Platform</span>
+                  <ExternalLink className="size-4 transition-transform group-hover:scale-110" />
+                </a>
+              )}
+            </div>
+          </Container>
+        </section>
+      )}
+
       {project.technology && project.technology.length > 0 && (
         <section className="py-20 sm:py-24 border-b border-white/[0.08]">
           <Container className="flex flex-col gap-6">

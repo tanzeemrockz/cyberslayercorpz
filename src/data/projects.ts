@@ -20,6 +20,47 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
+    slug: "nizambutterfly",
+    name: "Nizam Butterfly",
+    client: "Nizam Food Products",
+    industry: "FMCG & Food Manufacturing",
+    type: "Brand Web Platform & B2B Wholesale Engine",
+    category: "web",
+    services: [
+      "Brand Architecture",
+      "Interactive Product Catalog",
+      "Direct WhatsApp B2B Wholesale Routing",
+      "SEO & Structured Data Architecture",
+      "Edge Performance Tuning",
+    ],
+    description:
+      "The official web platform and direct wholesale ordering hub for Nizam Butterfly, an established South Indian food manufacturer specializing in ready-roasted vermicelli, short pasta, ragi millet noodles, and 7-minute biriyani meal kits.",
+    problem:
+      "As an expanding food manufacturer serving retail distributors and supermarkets across South India, Nizam Food Products needed to upgrade from traditional offline trade channels to a high-credibility digital storefront. Inquiries were bottlenecked by manual phone calls and disorganized communications, while distributors lacked an instantaneous way to review product specs and initiate bulk orders.",
+    approach:
+      "We engineered a modern, high-contrast web platform anchored in tactile food presentation. We architected a zero-latency product directory with structured JSON-LD schema, instant WhatsApp wholesale routing pre-loaded with SKU quantities, and responsive mobile-first navigation tailored for store managers and procurement officers on the move.",
+    solution:
+      "A lightning-fast, production-grade web platform at nizambutterfly.com. Features direct B2B wholesale dispatch, interactive product showcases, rich nutritional specifications, and seamless WhatsApp inquiry channels with zero overhead.",
+    features: [
+      "Direct WhatsApp B2B wholesale order routing with automated SKU pre-population",
+      "Interactive product directory for Ready-Roasted Semiya, 7-Min Biriyani, and Ragi Pasta",
+      "Comprehensive JSON-LD Organization, Product, and ItemList schema for Google ranking",
+      "Zero-overhead static edge deployment with sub-second page transitions",
+      "Mobile-first tactile interface designed for grocery store owners and procurement leads",
+    ],
+    technology: [
+      "Next.js",
+      "Tailwind CSS",
+      "Lucide Icons",
+      "Vercel Edge Network",
+      "WhatsApp Business API Hooks",
+    ],
+    timeline: "2 Weeks to Production",
+    results: "Live at nizambutterfly.com with sub-second TTFB, seamless wholesale inquiry capture across South India, and 100% Google Lighthouse performance.",
+    clientUrl: "https://nizambutterfly.com",
+    coverImage: "/work/nizambutterfly.jpg",
+  },
+  {
     slug: "princy-boutique",
     name: "Princy Boutique",
     industry: "Fashion & Bridal Couture",
