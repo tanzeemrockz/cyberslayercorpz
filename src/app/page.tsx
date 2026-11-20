@@ -9,7 +9,7 @@ import { ClientFAQ } from "@/components/home/client-faq";
 import { CTASection } from "@/components/shared/cta-section";
 
 export const metadata: Metadata = {
-  title: "CyberSlayerCorpz – Indie Software Studio",
+  title: "CyberSlayerCorpz | Indie Software Studio",
 };
 
 export default function Home() {

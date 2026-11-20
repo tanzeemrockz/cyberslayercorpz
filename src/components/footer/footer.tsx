@@ -19,6 +19,8 @@ const FOOTER_COLUMNS = [
     title: "Studio",
     links: [
       { label: "Work", href: "/work" },
+      { label: "Demo Directory", href: "/demo" },
+      { label: "Club", href: "/club" },
       { label: "Process", href: "/process" },
       { label: "About", href: "/about" },
       { label: "Contact", href: "/contact" },
@@ -38,10 +40,10 @@ export function Footer() {
           </p>
           <div className="mt-2">
             <a
-              href="mailto:hello@cyberslayercorpz.dev"
+              href="mailto:tanzeemrockz@cyberslayercorpz.dev"
               className="text-xs text-white/40 transition-colors hover:text-white"
             >
-              hello@cyberslayercorpz.dev
+              tanzeemrockz@cyberslayercorpz.dev
             </a>
           </div>
         </div>
